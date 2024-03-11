@@ -176,6 +176,7 @@ F;GEO\lrtm.geo
 F;GEO\lrtr.geo
 F;GEO\lrtz.geo
 F;GEO\lrbv.geo
+F;GEO\lrcd.geo
 
 
 [AIRPORT]
@@ -313,6 +314,7 @@ F;POLYGON_STATIC\lrtm.fcl
 F;POLYGON_STATIC\lrtr.fcl
 F;POLYGON_STATIC\lrtz.fcl
 F;POLYGON_STATIC\lrbv.fcl
+F;POLYGON_STATIC\lrcd.fcl
 
 //active areas
 F;POLYGON_STATIC\active_areas.fcl
