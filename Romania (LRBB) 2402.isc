@@ -21,7 +21,7 @@ E025.24.00.007
 60
 42
 5
-RO
+RO;RO\Airports\LRAR;RO\Airports\LRBC;RO\Airports\LRBM;RO\Airports\LRBN;RO\Airports\LRBO;RO\Airports\LRBS;RO\Airports\LRBV;RO\Airports\LRCB;RO\Airports\LRCD;RO\Airports\LRCK;RO\Airports\LRCL;RO\Airports\LRCS;RO\Airports\LRCT;RO\Airports\LRCV;RO\Airports\LRDV;RO\Airports\LRFT;RO\Airports\LRIA;RO\Airports\LROD;RO\Airports\LROP;RO\Airports\LRPT;RO\Airports\LRPW;RO\Airports\LRSB;RO\Airports\LRSM;RO\Airports\LRSV;RO\Airports\LRTC;RO\Airports\LRTM;RO\Airports\LRTR;RO\Airports\LRTZ;
 
 [DEFINE]
 //atc
@@ -90,23 +90,23 @@ F;TMA\lrop.tma
 F;TMA\lybe.tma
 //F;TMA\labels.tma
 
-F;CTZ\lrar.ctz
-F;CTZ\lrbc.ctz
-F;CTZ\lrbm.ctz
-F;CTZ\lrbs.ctz
-F;CTZ\lrck.ctz
-F;CTZ\lrcl.ctz
-F;CTZ\lrcv.ctz
-F;CTZ\lria.ctz
-F;CTZ\lrod.ctz
-F;CTZ\lrop.ctz
-F;CTZ\lrsb.ctz
-F;CTZ\lrsm.ctz
-F;CTZ\lrsv.ctz
-F;CTZ\lrtc.ctz
-F;CTZ\lrtm.ctz
-F;CTZ\lrtr.ctz
-F;CTZ\lrbv.ctz
+F;Airports\LRAR\lrar.ctz
+F;Airports\LRBC\lrbc.ctz
+F;Airports\LRBM\lrbm.ctz
+F;Airports\LRBS\lrbs.ctz
+F;Airports\LRCK\lrck.ctz
+F;Airports\LRCL\lrcl.ctz
+F;Airports\LRCV\lrcv.ctz
+F;Airports\LRIA\lria.ctz
+F;Airports\LROD\lrod.ctz
+F;Airports\LROP\lrop.ctz
+F;Airports\LRSB\lrsb.ctz
+F;Airports\LRSM\lrsm.ctz
+F;Airports\LRSV\lrsv.ctz
+F;Airports\LRTC\lrtc.ctz
+F;Airports\LRTM\lrtm.ctz
+F;Airports\LRTR\lrtr.ctz
+F;Airports\LRBV\lrbv.ctz
 
 
 [GEO]
@@ -148,36 +148,6 @@ F;GEO/bulgaria_coast.geo
 F;GEO/romania_coast.geo
 F;GEO/ukraine_coast.geo
 F;GEO/ukraine_coast2.geo
-
-//AIRPORTS - geo files
-F;GEO\lrar.geo
-F;GEO\lrbc.geo
-F;GEO\lrbm.geo
-F;GEO\lrbn.geo
-F;GEO\lrbo.geo
-F;GEO\lrbs.geo
-F;GEO\lrck.geo
-F;GEO\lrcl.geo
-F;GEO\lrcs.geo
-F;GEO\lrct.geo
-F;GEO\lrcv.geo
-F;GEO\lrdv.geo
-F;GEO\lrft.geo
-F;GEO\lria.geo
-F;GEO\lrod.geo
-F;GEO\lrop.geo
-F;GEO\lrpt.geo
-F;GEO\lrpw.geo
-F;GEO\lrsb.geo
-F;GEO\lrsm.geo
-F;GEO\lrsv.geo
-F;GEO\lrtc.geo
-F;GEO\lrtm.geo
-F;GEO\lrtr.geo
-F;GEO\lrtz.geo
-F;GEO\lrbv.geo
-F;GEO\lrcd.geo
-
 
 [AIRPORT]
 F;NAVAID\lr.arp
@@ -229,93 +199,93 @@ F;NAVAID\lz.vor
 F;NAVAID\uk.vor
 
 [FILLCOLOR]
-//ATC sectors - tfl files
+//ATC sectors - fcl files
 
 //neighbors
-F;POLYGON_DYNAMIC\lbsr.tfl
-F;POLYGON_DYNAMIC\lbsr_w.tfl
-F;POLYGON_DYNAMIC\lbsr_e.tfl
-F;POLYGON_DYNAMIC\lhcc.tfl
-F;POLYGON_DYNAMIC\luuu.tfl
-F;POLYGON_DYNAMIC\lyba.tfl
-F;POLYGON_DYNAMIC\lybe.tfl
-F;POLYGON_DYNAMIC\lzbb.tfl
-F;POLYGON_DYNAMIC\ukbu.tfl
-F;POLYGON_DYNAMIC\uklv.tfl
-F;POLYGON_DYNAMIC\ukov.tfl
+F;POLYGON_DYNAMIC\lbsr.fcl
+F;POLYGON_DYNAMIC\lbsr_w.fcl
+F;POLYGON_DYNAMIC\lbsr_e.fcl
+F;POLYGON_DYNAMIC\lhcc.fcl
+F;POLYGON_DYNAMIC\luuu.fcl
+F;POLYGON_DYNAMIC\lyba.fcl
+F;POLYGON_DYNAMIC\lybe.fcl
+F;POLYGON_DYNAMIC\lzbb.fcl
+F;POLYGON_DYNAMIC\ukbu.fcl
+F;POLYGON_DYNAMIC\uklv.fcl
+F;POLYGON_DYNAMIC\ukov.fcl
 
 //lrbb ACC
-F;POLYGON_DYNAMIC\lrbb.tfl
+F;POLYGON_DYNAMIC\lrbb.fcl
 
-F;POLYGON_DYNAMIC\lrbb_m1.tfl
-F;POLYGON_DYNAMIC\lrbb_m2.tfl
+F;POLYGON_DYNAMIC\lrbb_m1.fcl
+F;POLYGON_DYNAMIC\lrbb_m2.fcl
 
-F;POLYGON_DYNAMIC\lrbb_budmo.tfl
-F;POLYGON_DYNAMIC\lrbb_konel.tfl
-F;POLYGON_DYNAMIC\lrbb_banap.tfl
-F;POLYGON_DYNAMIC\lrbb_dinar.tfl
+F;POLYGON_DYNAMIC\lrbb_budmo.fcl
+F;POLYGON_DYNAMIC\lrbb_konel.fcl
+F;POLYGON_DYNAMIC\lrbb_banap.fcl
+F;POLYGON_DYNAMIC\lrbb_dinar.fcl
 
-F;POLYGON_DYNAMIC\lrbb_budop.tfl
-F;POLYGON_DYNAMIC\lrbb_mopug.tfl
-F;POLYGON_DYNAMIC\lrbb_koman.tfl
-F;POLYGON_DYNAMIC\lrbb_nerdi.tfl
-F;POLYGON_DYNAMIC\lrbb_lomos.tfl
-F;POLYGON_DYNAMIC\lrbb_bacau.tfl
-F;POLYGON_DYNAMIC\lrbb_napoc.tfl
-F;POLYGON_DYNAMIC\lrbb_dinsi.tfl
-F;POLYGON_DYNAMIC\lrbb_arges.tfl
+F;POLYGON_DYNAMIC\lrbb_budop.fcl
+F;POLYGON_DYNAMIC\lrbb_mopug.fcl
+F;POLYGON_DYNAMIC\lrbb_koman.fcl
+F;POLYGON_DYNAMIC\lrbb_nerdi.fcl
+F;POLYGON_DYNAMIC\lrbb_lomos.fcl
+F;POLYGON_DYNAMIC\lrbb_bacau.fcl
+F;POLYGON_DYNAMIC\lrbb_napoc.fcl
+F;POLYGON_DYNAMIC\lrbb_dinsi.fcl
+F;POLYGON_DYNAMIC\lrbb_arges.fcl
 
 //lrbb TMA and CTZ
-F;POLYGON_DYNAMIC\lrar.tfl
-F;POLYGON_DYNAMIC\lrck.tfl
-F;POLYGON_DYNAMIC\lrcl.tfl
-F;POLYGON_DYNAMIC\lrop.tfl
+F;POLYGON_DYNAMIC\lrar.fcl
+F;POLYGON_DYNAMIC\lrck.fcl
+F;POLYGON_DYNAMIC\lrcl.fcl
+F;POLYGON_DYNAMIC\lrop.fcl
 
-F;POLYGON_DYNAMIC\lrbc.tfl
-F;POLYGON_DYNAMIC\lrbm.tfl
-F;POLYGON_DYNAMIC\lrbs.tfl
-F;POLYGON_DYNAMIC\lrcv.tfl
-F;POLYGON_DYNAMIC\lria.tfl
-F;POLYGON_DYNAMIC\lrod.tfl
-F;POLYGON_DYNAMIC\lrsm.tfl
-F;POLYGON_DYNAMIC\lrsv.tfl
-F;POLYGON_DYNAMIC\lrtc.tfl
-F;POLYGON_DYNAMIC\lrtm.tfl
-F;POLYGON_DYNAMIC\lrtr.tfl
-F;POLYGON_DYNAMIC\lrbv.tfl
+F;POLYGON_DYNAMIC\lrbc.fcl
+F;POLYGON_DYNAMIC\lrbm.fcl
+F;POLYGON_DYNAMIC\lrbs.fcl
+F;POLYGON_DYNAMIC\lrcv.fcl
+F;POLYGON_DYNAMIC\lria.fcl
+F;POLYGON_DYNAMIC\lrod.fcl
+F;POLYGON_DYNAMIC\lrsm.fcl
+F;POLYGON_DYNAMIC\lrsv.fcl
+F;POLYGON_DYNAMIC\lrtc.fcl
+F;POLYGON_DYNAMIC\lrtm.fcl
+F;POLYGON_DYNAMIC\lrtr.fcl
+F;POLYGON_DYNAMIC\lrbv.fcl
 
 //lakes
-//F;POLYGON_STATIC\lrbb_lakes.fcl
+//F;POLYGON_STATIC\lrbb_lakes.tfl
 
 //airport ground layouts
-F;POLYGON_STATIC\lrar.fcl
-F;POLYGON_STATIC\lrbc.fcl
-F;POLYGON_STATIC\lrbm.fcl
-F;POLYGON_STATIC\lrbn.fcl
-F;POLYGON_STATIC\lrbo.fcl
-F;POLYGON_STATIC\lrbs.fcl
-F;POLYGON_STATIC\lrck.fcl
-F;POLYGON_STATIC\lrcl.fcl
-F;POLYGON_STATIC\lrcs.fcl
-F;POLYGON_STATIC\lrct.fcl
-F;POLYGON_STATIC\lrcv.fcl
-F;POLYGON_STATIC\lrdv.fcl
-F;POLYGON_STATIC\lrft.fcl
-F;POLYGON_STATIC\lria.fcl
-F;POLYGON_STATIC\lrod.fcl
-F;POLYGON_STATIC\lrop.fcl
-F;POLYGON_STATIC\lrpt.fcl
-F;POLYGON_STATIC\lrpw.fcl
-F;POLYGON_STATIC\lrsb.fcl
-F;POLYGON_STATIC\lrsm.fcl
-F;POLYGON_STATIC\lrsv.fcl
-F;POLYGON_STATIC\lrtc.fcl
-F;POLYGON_STATIC\lrtm.fcl
-F;POLYGON_STATIC\lrtr.fcl
-F;POLYGON_STATIC\lrtz.fcl
-F;POLYGON_STATIC\lrbv.fcl
-F;POLYGON_STATIC\lrcd.fcl
+F;POLYGON_STATIC\lrar.tfl
+F;POLYGON_STATIC\lrbc.tfl
+F;POLYGON_STATIC\lrbm.tfl
+F;POLYGON_STATIC\lrbn.tfl
+F;POLYGON_STATIC\lrbo.tfl
+F;POLYGON_STATIC\lrbs.tfl
+F;POLYGON_STATIC\lrck.tfl
+F;POLYGON_STATIC\lrcl.tfl
+F;POLYGON_STATIC\lrcs.tfl
+F;POLYGON_STATIC\lrct.tfl
+F;POLYGON_STATIC\lrcv.tfl
+F;POLYGON_STATIC\lrdv.tfl
+F;POLYGON_STATIC\lrft.tfl
+F;POLYGON_STATIC\lria.tfl
+F;POLYGON_STATIC\lrod.tfl
+F;POLYGON_STATIC\lrop.tfl
+F;POLYGON_STATIC\lrpt.tfl
+F;POLYGON_STATIC\lrpw.tfl
+F;POLYGON_STATIC\lrsb.tfl
+F;POLYGON_STATIC\lrsm.tfl
+F;POLYGON_STATIC\lrsv.tfl
+F;POLYGON_STATIC\lrtc.tfl
+F;POLYGON_STATIC\lrtm.tfl
+F;POLYGON_STATIC\lrtr.tfl
+F;POLYGON_STATIC\lrtz.tfl
+F;POLYGON_STATIC\lrbv.tfl
+F;POLYGON_STATIC\lrcd.tfl
 
 //active areas
-F;POLYGON_STATIC\active_areas.fcl
+F;POLYGON_STATIC\active_areas.tfl
 
