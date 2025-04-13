@@ -148,6 +148,7 @@ F;GEO/bulgaria_coast.geo
 F;GEO/romania_coast.geo
 F;GEO/ukraine_coast.geo
 F;GEO/ukraine_coast2.geo
+F;Airports/LRIA/lria.restrict
 
 [AIRPORT]
 F;NAVAID\lr.arp
@@ -235,56 +236,8 @@ F;POLYGON_DYNAMIC\lrbb_napoc.fcl
 F;POLYGON_DYNAMIC\lrbb_dinsi.fcl
 F;POLYGON_DYNAMIC\lrbb_arges.fcl
 
-//lrbb TMA and CTZ
-F;POLYGON_DYNAMIC\lrar.fcl
-F;POLYGON_DYNAMIC\lrck.fcl
-F;POLYGON_DYNAMIC\lrcl.fcl
-F;POLYGON_DYNAMIC\lrop.fcl
-
-F;POLYGON_DYNAMIC\lrbc.fcl
-F;POLYGON_DYNAMIC\lrbm.fcl
-F;POLYGON_DYNAMIC\lrbs.fcl
-F;POLYGON_DYNAMIC\lrcv.fcl
-F;POLYGON_DYNAMIC\lria.fcl
-F;POLYGON_DYNAMIC\lrod.fcl
-F;POLYGON_DYNAMIC\lrsm.fcl
-F;POLYGON_DYNAMIC\lrsv.fcl
-F;POLYGON_DYNAMIC\lrtc.fcl
-F;POLYGON_DYNAMIC\lrtm.fcl
-F;POLYGON_DYNAMIC\lrtr.fcl
-F;POLYGON_DYNAMIC\lrbv.fcl
-
 //lakes
 //F;POLYGON_STATIC\lrbb_lakes.tfl
-
-//airport ground layouts
-F;POLYGON_STATIC\lrar.tfl
-F;POLYGON_STATIC\lrbc.tfl
-F;POLYGON_STATIC\lrbm.tfl
-F;POLYGON_STATIC\lrbn.tfl
-F;POLYGON_STATIC\lrbo.tfl
-F;POLYGON_STATIC\lrbs.tfl
-F;POLYGON_STATIC\lrck.tfl
-F;POLYGON_STATIC\lrcl.tfl
-F;POLYGON_STATIC\lrcs.tfl
-F;POLYGON_STATIC\lrct.tfl
-F;POLYGON_STATIC\lrcv.tfl
-F;POLYGON_STATIC\lrdv.tfl
-F;POLYGON_STATIC\lrft.tfl
-F;POLYGON_STATIC\lria.tfl
-F;POLYGON_STATIC\lrod.tfl
-F;POLYGON_STATIC\lrop.tfl
-F;POLYGON_STATIC\lrpt.tfl
-F;POLYGON_STATIC\lrpw.tfl
-F;POLYGON_STATIC\lrsb.tfl
-F;POLYGON_STATIC\lrsm.tfl
-F;POLYGON_STATIC\lrsv.tfl
-F;POLYGON_STATIC\lrtc.tfl
-F;POLYGON_STATIC\lrtm.tfl
-F;POLYGON_STATIC\lrtr.tfl
-F;POLYGON_STATIC\lrtz.tfl
-F;POLYGON_STATIC\lrbv.tfl
-F;POLYGON_STATIC\lrcd.tfl
 
 //active areas
 F;POLYGON_STATIC\active_areas.tfl
