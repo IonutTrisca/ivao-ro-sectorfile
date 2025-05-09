@@ -236,6 +236,24 @@ F;POLYGON_DYNAMIC\lrbb_napoc.fcl
 F;POLYGON_DYNAMIC\lrbb_dinsi.fcl
 F;POLYGON_DYNAMIC\lrbb_arges.fcl
 
+//lrbb TMA and CTZ
+F;Airports\LRAR\lrar.fcl
+F;Airports\LRCK\lrck.fcl
+F;Airports\LRCL\lrcl.fcl
+F;Airports\LROP\lrop.fcl
+F;Airports\LRBC\lrbc.fcl
+F;Airports\LRBM\lrbm.fcl
+F;Airports\LRBS\lrbs.fcl
+F;Airports\LRCV\lrcv.fcl
+F;Airports\LRIA\lria.fcl
+F;Airports\LROD\lrod.fcl
+F;Airports\LRSM\lrsm.fcl
+F;Airports\LRSV\lrsv.fcl
+F;Airports\LRTC\lrtc.fcl
+F;Airports\LRTM\lrtm.fcl
+F;Airports\LRTR\lrtr.fcl
+F;Airports\LRBV\lrbv.fcl
+
 //lakes
 //F;POLYGON_STATIC\lrbb_lakes.tfl
 
